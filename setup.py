@@ -40,7 +40,7 @@ setup(
         "ehforwarderbot",
         "python-magic",
         "requests",
-        'git+https://github.com/likedidu/python-mirai-core.git@master',
+        "python-mirai-core @ git+https://github.com/likedidu/python-mirai-core.git@master#egg=python-mirai-core",
         "cachetools"
     ],
     entry_points={
